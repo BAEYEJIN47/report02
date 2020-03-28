@@ -9,8 +9,8 @@ public class gugu {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("±¸±¸´Ü ÇĞ½À");
-		System.out.print("¿øÇÏ´Â ´ÜÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("êµ¬êµ¬ë‹¨ í•™ìŠµ");
+		System.out.print("ì›í•˜ëŠ” ë‹¨ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		
 		a = input.nextInt();
 		
