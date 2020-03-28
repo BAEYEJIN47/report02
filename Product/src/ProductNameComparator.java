@@ -8,7 +8,4 @@ public class ProductNameComparator implements Comparator<Product> {
 		
 		return productName1.compareToIgnoreCase(productName2);
 	}
-		
-	
-
 }
