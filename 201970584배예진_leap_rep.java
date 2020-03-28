@@ -9,8 +9,8 @@ public class leap_rep {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("À±³â Æò³â ÆÇº° ÇÁ·Î±×·¥");
-		System.out.print("³âµµ : ");
+		System.out.println("ìœ¤ë…„ í‰ë…„ íŒë³„ í”„ë¡œê·¸ë¨");
+		System.out.print("ë…„ë„ : ");
 		
 		year = input.nextInt();
 		
@@ -18,16 +18,16 @@ public class leap_rep {
 		
 		if (year%4==0 && year%100!=0 || year%400==0) {
 			
-			System.out.println(year+"³âÀº À±³âÀÔ´Ï´Ù");	
+			System.out.println(year+"ë…„ì€ ìœ¤ë…„ì…ë‹ˆë‹¤");	
 		} else			
-			System.out.println(year+"³âÀº Æò³âÀÔ´Ï´Ù");
+			System.out.println(year+"ë…„ì€ í‰ë…„ì…ë‹ˆë‹¤");
 		
-		System.out.print("³âµµ : ");
+		System.out.print("ë…„ë„ : ");
 		year = input.nextInt();
 		
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù");
+		System.out.println("í”„ë¡œê·¸ë¨ì´ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤");
 		
 	}
 
